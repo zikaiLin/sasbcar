@@ -1,0 +1,389 @@
+[
+    {
+        "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+        "file_last_write": 1718221733.0,
+        "definitions": [
+            {
+                "usr": "c:@S@BE_MSE",
+                "kind": 2,
+                "parent_name": "",
+                "name": "BE_MSE",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 7,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@S@BEData",
+                "kind": 3,
+                "parent_name": "",
+                "name": "BEData",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 10,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@S@BEParas",
+                "kind": 3,
+                "parent_name": "",
+                "name": "BEParas",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 22,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@S@MCMCSample",
+                "kind": 3,
+                "parent_name": "",
+                "name": "MCMCSample",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 46,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@S@GibbsSamplerProfile",
+                "kind": 3,
+                "parent_name": "",
+                "name": "GibbsSamplerProfile",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 62,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@S@GibbsSamplerControl",
+                "kind": 3,
+                "parent_name": "",
+                "name": "GibbsSamplerControl",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 69,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@slice_truncnorm_positive#d#d#d#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "slice_truncnorm_positive(double, double, double)",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 85,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@slice_truncnorm_negative#d#d#d#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "slice_truncnorm_negative(double, double, double)",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 94,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@Hermite_polynomial#&1$@N@arma@S@Mat>#d#&1I#&1d#S3_#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "Hermite_polynomial(const mat &, const int &, const double &, const double &)",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 102,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@load_data#&1$@N@arma@S@Col>#d#&1$@N@arma@S@Mat>#d#&1I#&1d#&d#&$@N@arma@S@Mat>#i#&$@N@arma@S@Col>#i#S9_#d#d#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "load_data(const vec &, const mat &, const int &, const double &, double &, umat &, uvec &, uvec &, double, double)",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 118,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@set_paras_initial_values#&1d#S0_#d#&1$@N@arma@S@Col>#d#S2_#$@N@arma@S@Mat>#d#S3_#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "set_paras_initial_values(const double &, const double &, double, const vec &, vec, mat, mat)",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 142,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@update_pj_mat_partial#I#I#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "update_pj_mat_partial(int, int)",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 206,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@update_prob_mat#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "update_prob_mat",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 258,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@update_radius#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "update_radius",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 307,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@update_delta#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "update_delta",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 358,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@set_gibbs_control#I#I#I#I#I#I#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "set_gibbs_control(int, int, int, int, int, int)",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 470,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@dnormLog_vec#$@N@arma@S@Col>#d#d#d#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "dnormLog_vec(vec, double, double)",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 491,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@update_inv_sigma_sq#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "update_inv_sigma_sq",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 501,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@update_inv_a#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "update_inv_a",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 509,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@update_alpha#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "update_alpha",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 514,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@update_z#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "update_z",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 522,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@update_theta#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "update_theta",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 540,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@update_loglik#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "update_loglik",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 588,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@update_logpost#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "update_logpost",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 601,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@initialize_paras_sample#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "initialize_paras_sample",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 612,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@save_paras_sample#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "save_paras_sample",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 629,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@initialize_gibbs_profile#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "initialize_gibbs_profile",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 655,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@save_gibbs_profile#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "save_gibbs_profile",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 666,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@monitor_gibbs#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "monitor_gibbs",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 682,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@run_gibbs#&b#S0_#S0_#S0_#S0_#S0_#I#d#d#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "run_gibbs(bool &, bool &, bool &, bool &, bool &, bool &, int, double, double)",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 696,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@get_gibbs_post_mean#d#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "get_gibbs_post_mean(double)",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 746,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@get_gibbs_sample#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "get_gibbs_sample",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 767,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@get_gibbs_trace#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "get_gibbs_trace",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 783,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@get_gibbs_control#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "get_gibbs_control",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 792,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@BE_MSE@F@get_iter#",
+                "kind": 7,
+                "parent_name": "BE_MSE",
+                "name": "get_iter",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 803,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@simul_dat_gam#I#d#&$@N@arma@S@Col>#d#I#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "simul_dat_gam(int, double, vec &, int, double, double)",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 812,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@Basis_Expansion#&$@N@arma@S@Col>#d#&$@N@arma@S@Mat>#d#&d#S4_#S0_#S0_#S2_#S2_#&$@N@arma@S@Col>#i#I#d#d#S5_#&$@N@arma@S@Mat>#i#b#b#b#b#b#b#d#d#d#d#I#I#I#I#I#I#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "Basis_Expansion(vec &, mat &, double &, double &, vec &, vec &, mat &, mat &, uvec &, int, double, double, uvec &, umat &, bool, bool, bool, bool, bool, bool, double, double, double, double, int, int, int, int, int, int, int)",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 881,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@update_pj_mat#$@N@Rcpp@S@Matrix>#VI13#@N@Rcpp@ST>1#T@PreserveStorage#S0_#$@N@Rcpp@S@Vector>#VI13#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "update_pj_mat(IntegerMatrix, IntegerMatrix, IntegerVector)",
+                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
+                "line": 973,
+                "column": 15,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    }
+]
