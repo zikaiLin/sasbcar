@@ -1,7 +1,7 @@
 [
     {
         "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
-        "file_last_write": 1718221733.0,
+        "file_last_write": 1718599778.0,
         "definitions": [
             {
                 "usr": "c:@S@BE_MSE",
@@ -87,7 +87,7 @@
                 "usr": "c:@S@BE_MSE@F@Hermite_polynomial#&1$@N@arma@S@Mat>#d#&1I#&1d#S3_#",
                 "kind": 7,
                 "parent_name": "BE_MSE",
-                "name": "Hermite_polynomial(const mat &, const int &, const double &, const double &)",
+                "name": "Hermite_polynomial(const arma::mat &, const int &, const double &, const double &)",
                 "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
                 "line": 102,
                 "column": 8,
@@ -97,7 +97,7 @@
                 "usr": "c:@S@BE_MSE@F@load_data#&1$@N@arma@S@Col>#d#&1$@N@arma@S@Mat>#d#&1I#&1d#&d#&$@N@arma@S@Mat>#i#&$@N@arma@S@Col>#i#S9_#d#d#",
                 "kind": 7,
                 "parent_name": "BE_MSE",
-                "name": "load_data(const vec &, const mat &, const int &, const double &, double &, umat &, uvec &, uvec &, double, double)",
+                "name": "load_data(const arma::vec &, const arma::mat &, const int &, const double &, double &, arma::umat &, arma::uvec &, arma::uvec &, double, double)",
                 "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
                 "line": 118,
                 "column": 8,
@@ -107,7 +107,7 @@
                 "usr": "c:@S@BE_MSE@F@set_paras_initial_values#&1d#S0_#d#&1$@N@arma@S@Col>#d#S2_#$@N@arma@S@Mat>#d#S3_#",
                 "kind": 7,
                 "parent_name": "BE_MSE",
-                "name": "set_paras_initial_values(const double &, const double &, double, const vec &, vec, mat, mat)",
+                "name": "set_paras_initial_values(const double &, const double &, double, const arma::vec &, arma::vec, arma::mat, arma::mat)",
                 "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
                 "line": 142,
                 "column": 8,
@@ -120,7 +120,7 @@
                 "name": "update_pj_mat_partial(int, int)",
                 "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
                 "line": 206,
-                "column": 7,
+                "column": 13,
                 "hidden": false
             },
             {
@@ -167,10 +167,10 @@
                 "usr": "c:@S@BE_MSE@F@dnormLog_vec#$@N@arma@S@Col>#d#d#d#",
                 "kind": 7,
                 "parent_name": "BE_MSE",
-                "name": "dnormLog_vec(vec, double, double)",
+                "name": "dnormLog_vec(arma::vec, double, double)",
                 "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
                 "line": 491,
-                "column": 7,
+                "column": 13,
                 "hidden": false
             },
             {
@@ -354,32 +354,22 @@
                 "hidden": false
             },
             {
-                "usr": "c:@F@simul_dat_gam#I#d#&$@N@arma@S@Col>#d#I#d#d#",
+                "usr": "c:@F@Basis_Expansion#$@N@arma@S@Col>#d#$@N@arma@S@Mat>#d#d#d#S0_#S0_#S1_#S1_#$@N@arma@S@Col>#i#I#d#d#S2_#$@N@arma@S@Mat>#i#b#b#b#b#b#b#d#d#d#d#I#I#I#I#I#I#I#",
                 "kind": 6,
                 "parent_name": "",
-                "name": "simul_dat_gam(int, double, vec &, int, double, double)",
+                "name": "Basis_Expansion(arma::vec, arma::mat, double, double, arma::vec, arma::vec, arma::mat, arma::mat, arma::uvec, int, double, double, arma::uvec, arma::umat, bool, bool, bool, bool, bool, bool, double, double, double, double, int, int, int, int, int, int, int)",
                 "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
-                "line": 812,
-                "column": 6,
+                "line": 849,
+                "column": 12,
                 "hidden": false
             },
             {
-                "usr": "c:@F@Basis_Expansion#&$@N@arma@S@Col>#d#&$@N@arma@S@Mat>#d#&d#S4_#S0_#S0_#S2_#S2_#&$@N@arma@S@Col>#i#I#d#d#S5_#&$@N@arma@S@Mat>#i#b#b#b#b#b#b#d#d#d#d#I#I#I#I#I#I#I#",
-                "kind": 6,
-                "parent_name": "",
-                "name": "Basis_Expansion(vec &, mat &, double &, double &, vec &, vec &, mat &, mat &, uvec &, int, double, double, uvec &, umat &, bool, bool, bool, bool, bool, bool, double, double, double, double, int, int, int, int, int, int, int)",
-                "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
-                "line": 881,
-                "column": 6,
-                "hidden": false
-            },
-            {
-                "usr": "c:@F@update_pj_mat#$@N@Rcpp@S@Matrix>#VI13#@N@Rcpp@ST>1#T@PreserveStorage#S0_#$@N@Rcpp@S@Vector>#VI13#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "usr": "c:@F@update_pj_mat#I#I#I#",
                 "kind": 6,
                 "parent_name": "",
                 "name": "update_pj_mat(IntegerMatrix, IntegerMatrix, IntegerVector)",
                 "file": "/Volumes/ExternalDisk/Dropbox (Personal)/U-Mich/Research/sasbcar/src/BasisExpansion_GP.cpp",
-                "line": 973,
+                "line": 926,
                 "column": 15,
                 "hidden": false
             }

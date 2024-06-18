@@ -1,4 +1,4 @@
-#' Fit Model using Rcpp
+#' Fit SAS BCAR Model
 #'
 #' @param X A matrix of predictors.
 #' @param y A vector of response.
@@ -22,7 +22,7 @@
 
 
 
-fit_model <- function(X,
+fit_sasbcar <- function(X,
                       y,
                       partition = NULL, 
                       radius_candidats = c(1,2),
